@@ -1,0 +1,31 @@
+##来自https://github.com/freefq/free/
+# 订阅链接
+- type: subscribe
+  options:
+    url: https://cdn.staticaly.com/gh/freefq/free@master/v2
+
+##来自https://github.com/pojiezhiyuanjun/freev2
+# 订阅链接
+- type: subscribe
+  options:
+    url: https://cdn.staticaly.com/gh/pojiezhiyuanjun/freev2@master/1025.txt
+
+# 订阅链接
+- type: subscribe
+  options:
+    url: https://cdn.staticaly.com/gh/pojiezhiyuanjun/freev2@master/1024.txt
+
+# 订阅链接
+- type: subscribe
+  options:
+    url: https://cdn.staticaly.com/gh/pojiezhiyuanjun/freev2@master/1023.txt
+
+# 订阅链接
+- type: subscribe
+  options:
+    url: https://cdn.staticaly.com/gh/pojiezhiyuanjun/freev2@master/1022.txt
+
+# 订阅链接
+- type: subscribe
+  options:
+    url: https://cdn.staticaly.com/gh/pojiezhiyuanjun/freev2@master/1021.txt
