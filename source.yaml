@@ -2,34 +2,37 @@
 # 订阅链接
 - type: subscribe
   options:
-    url: https://cdn.staticaly.com/gh/freefq/free@master/v2
+    url: https://cdn.staticaly.com/gh/freefq/free@master/v2 #
 
 ##来自https://github.com/Pawdroid/Free-servers
 - type: subscribe
   options:
-    url: https://raw.fastgit.org/Pawdroid/Free-servers/main/sub
+    url: https://raw.fastgit.org/Pawdroid/Free-servers/main/sub #
 
 ##来自https://github.com/vpei/Free-Node-Merge
 - type: subscribe
   options:
-    url: https://raw.iqiq.io/vpei/Free-Node-Merge/main/out/node.txt
+    url: https://raw.githubusercontent.com/vpei/Free-Node-Merge/main/o/node.txt #
 
 ##来自https://github.com/mianfeifq/share
-- type: subscribe
-  options:
-    url: https://raw.fastgit.org/mianfeifq/share/main/data2022104.txt
+# 订阅链接不能固定
+# - type: subscribe
+#   options:
+#     url: https://raw.githubusercontent.com/mianfeifq/share/main/data2022126.txt #
 
 ##来自https://github.com/aiboboxx/v2rayfree
 - type: subscribe
   options:
-    url: https://raw.githubusercontent.com/aiboboxx/v2rayfree/main/v2
+    url: https://raw.githubusercontent.com/aiboboxx/v2rayfree/main/v2 #
 
 ##来自https://github.com/alanbobs999/TopFreeProxies
+## 12月10日后未更新
 - type: subscribe
   options:
-    url: https://fastly.jsdelivr.net/gh/alanbobs999/TopFreeProxies@master/Eternity
+    url: https://fastly.jsdelivr.net/gh/alanbobs999/TopFreeProxies@master/Eternity #
 
 ##来自https://github.com/pojiezhiyuanjun/freev2
+# 12月6日后未更新
 # 订阅链接
 # - type: subscribe
 #   options:
@@ -38,18 +41,18 @@
 # tg频道抓取
 - type: tgchannel
   options:
-    channel: ssrList
+    channel: ssrList #
     num: 100
     
 # 网页模糊抓取
 - type: webfuzz
   options:
-    url: https://merlinblog.xyz/wiki/freess.html
+    url: https://merlinblog.xyz/wiki/freess.html #
 
 # 模糊抓取订阅链接
-- type: webfuzzsub
-  options:
-    url: https://raw.githubusercontent.com/du5/free/master/sub.list
+# - type: webfuzzsub
+#   options:
+#     url: https://raw.githubusercontent.com/du5/free/master/sub.list
 
 # 翻墙党论坛抓取
 # - type: web-fanqiangdang
