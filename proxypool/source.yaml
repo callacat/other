@@ -18,7 +18,7 @@
 # 订阅链接不能固定
 - type: subscribe
   options:
-    url: https://raw.githubusercontent.com/mianfeifq/share/main/data2023016.txt
+    url: https://raw.githubusercontent.com/mianfeifq/share/main/data2023025.txt
 
 ##来自https://github.com/aiboboxx/v2rayfree
 - type: subscribe
@@ -29,19 +29,19 @@
 # 订阅链接
 - type: subscribe
   options:
-    url: https://raw.githubusercontent.com/pojiezhiyuanjun/freev2/master/0110.txt
+    url: https://raw.githubusercontent.com/pojiezhiyuanjun/freev2/master/0202.txt
     
 - type: subscribe
   options:
-    url: https://raw.githubusercontent.com/pojiezhiyuanjun/freev2/master/0109.txt
+    url: https://raw.githubusercontent.com/pojiezhiyuanjun/freev2/master/0201.txt
     
 - type: subscribe
   options:
-    url: https://raw.githubusercontent.com/pojiezhiyuanjun/freev2/master/0108.txt
+    url: https://raw.githubusercontent.com/pojiezhiyuanjun/freev2/master/0131.txt
 
 - type: subscribe
   options:
-    url: https://raw.githubusercontent.com/pojiezhiyuanjun/freev2/master/0107.txt
+    url: https://raw.githubusercontent.com/pojiezhiyuanjun/freev2/master/0130.txt
 
 # tg频道抓取
 - type: tgchannel
