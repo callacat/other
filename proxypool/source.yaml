@@ -29,19 +29,19 @@
 # 订阅链接
 - type: subscribe
   options:
-    url: https://raw.githubusercontent.com/pojiezhiyuanjun/freev2/master/0202.txt
+    url: https://raw.githubusercontent.com/pojiezhiyuanjun/freev2/master/0209.txt
     
 - type: subscribe
   options:
-    url: https://raw.githubusercontent.com/pojiezhiyuanjun/freev2/master/0201.txt
+    url: https://raw.githubusercontent.com/pojiezhiyuanjun/freev2/master/0208.txt
     
 - type: subscribe
   options:
-    url: https://raw.githubusercontent.com/pojiezhiyuanjun/freev2/master/0131.txt
+    url: https://raw.githubusercontent.com/pojiezhiyuanjun/freev2/master/0207.txt
 
 - type: subscribe
   options:
-    url: https://raw.githubusercontent.com/pojiezhiyuanjun/freev2/master/0130.txt
+    url: https://raw.githubusercontent.com/pojiezhiyuanjun/freev2/master/0206.txt
 
 # tg频道抓取
 - type: tgchannel
