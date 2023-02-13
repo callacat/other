@@ -18,10 +18,6 @@ jobs:
 
     steps:
       - uses: actions/checkout@v3
-        with:
-          ref: main
-          repository: cokemine/nodestatus
-
       - name: Set up Node.js
         uses: actions/setup-node@v2
         with:
@@ -29,6 +25,11 @@ jobs:
 
       - name: Install dependencies
         run: |
+          git clone https://github.com/cokemine/nodestatus.git
+          cd nodestatus
+          cp -R * ../
+          cd ..
+          rm -rf nodestatus
           npm install -g pnpm
           pnpm install
           ls
