@@ -1,4 +1,4 @@
-name: build
+name: build-nodestatus
 
 on:
   push:
@@ -12,7 +12,7 @@ env:
 
 jobs:
 
-  judge:
+  build-nodestatus:
 
     runs-on: ubuntu-latest
 
@@ -42,7 +42,7 @@ jobs:
       #   uses: "marvinpinto/action-automatic-releases@latest"
       #   with:
       #     repo_token: "${{ secrets.GITHUB_TOKEN }}"
-      #     title: "proxypool"
-      #     automatic_release_tag: "proxypool"
+      #     title: "nodestatus"
+      #     automatic_release_tag: "nodestatus"
       #     prerelease: false
       #     files: proxypool

@@ -1,4 +1,4 @@
-name: build
+name: build-proxypool
 
 on:
   push:
@@ -12,7 +12,7 @@ env:
 
 jobs:
 
-  judge:
+  build-proxypool:
 
     runs-on: ubuntu-latest
 
