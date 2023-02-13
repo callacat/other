@@ -45,7 +45,7 @@ jobs:
       - name: Build code
         run: |
           cd nodestatus
-          sudo pnpm build
+          pnpm build
           ls
 
       - name: Package
