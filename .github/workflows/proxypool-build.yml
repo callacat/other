@@ -1,0 +1,48 @@
+name: build
+
+on:
+  push:
+    branches:
+      - main
+  watch:
+    types: [started]
+
+jobs:
+
+  judge:
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          ref: main
+          repository: callacat/proxypool
+
+      - name: Set up Go environment
+        uses: actions/setup-go@v2
+        with:
+          go-version: 1.16.x
+
+      - name: Go mod download
+        run: |
+          go mod download
+
+      - name: Make docker
+        run: |
+          make docker
+
+      - name: Upload to Release
+        uses: actions/upload-artifact@v2
+        with:
+          name: proxy-pool
+          path: ./bin/proxypool-docker
+      # #如果最新获取的时间戳不等于上次保存的时间戳则上传到Release
+      # - name: 上传
+      #   uses: "marvinpinto/action-automatic-releases@latest"
+      #   with:
+      #     repo_token: "${{ secrets.GITHUB_TOKEN }}"
+      #     title: "proxypool"
+      #     automatic_release_tag: "latest"
+      #     prerelease: false
+      #     files: binary/
