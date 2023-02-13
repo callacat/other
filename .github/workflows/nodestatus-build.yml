@@ -23,15 +23,21 @@ jobs:
         with:
           node-version: 18
 
-      - name: Install dependencies
+      - name: getfile
         run: |
           git clone https://github.com/cokemine/nodestatus.git
           cd nodestatus
           cp -R * ../
           cd ..
           rm -rf nodestatus
-          npm install -g pnpm
-          pnpm install
+
+      - name: Install dependencies
+        run: |
+          apt-get update
+          apt-get install -y git python3 apt-transport-https ca-certificates build-essential
+          ln -s /usr/bin/python3 /usr/bin/python
+          npm install pnpm -g
+          pnpm install --unsafe-perm
           ls
 
       - name: Build code
