@@ -29,6 +29,7 @@ jobs:
 
       - name: build
         run: |
+          go mod download github.com/goccy/go-json
           go build -ldflags="-s -w" -o movie .
 
       - name: 上传
