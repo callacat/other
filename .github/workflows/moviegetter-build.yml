@@ -1,4 +1,4 @@
-name: build-proxypool
+name: build-moviegetter
 
 on:
   push:
@@ -12,7 +12,7 @@ env:
 
 jobs:
 
-  build-proxypool:
+  build-moviegetter:
 
     runs-on: ubuntu-latest
 
