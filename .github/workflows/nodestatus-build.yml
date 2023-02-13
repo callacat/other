@@ -27,9 +27,9 @@ jobs:
         run: |
           git clone https://github.com/cokemine/nodestatus.git
           cd nodestatus
-          cp -R * ../
-          cd ..
-          rm -rf nodestatus
+        # cp -R * ../
+        # cd ..
+        # rm -rf nodestatus
 
       - name: Install dependencies
         run: |
@@ -37,13 +37,18 @@ jobs:
           sudo apt-get install -y git python3 apt-transport-https ca-certificates build-essential
           sudo npm install pnpm -g
           sudo pnpm install --unsafe-perm
+          sudo pnpm install classnames dayjs
           ls
 
       - name: Build code
         run: |
-          pnpm build
+          sudo pnpm build
           ls
-
+      - name: Package
+        uses: actions/upload-artifact@v1
+        with:
+          name: build-output
+          path: .
       # - name: 上传
       #   uses: "marvinpinto/action-automatic-releases@latest"
       #   with:
