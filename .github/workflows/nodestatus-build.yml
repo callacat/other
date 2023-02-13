@@ -3,7 +3,7 @@ name: build
 on:
   push:
     paths:
-      - '.github\workflows\nodestatus-*.yml'
+      - '*.yml'
 
 env:
   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -20,21 +20,21 @@ jobs:
           ref: main
           repository: cokemine/nodestatus
 
-    - name: Set up Node.js
-      uses: actions/setup-node@v2
-      with:
-        node-version: 18
+      - name: Set up Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: 18
 
-    - name: Install dependencies
-      run: |
-        npm install -g pnpm
-        pnpm install
-        ls
+      - name: Install dependencies
+        run: |
+          npm install -g pnpm
+          pnpm install
+          ls
 
-    - name: Build code
-      run: |
-        pnpm build
-        ls
+      - name: Build code
+        run: |
+          pnpm build
+          ls
 
       # - name: 上传
       #   uses: "marvinpinto/action-automatic-releases@latest"
