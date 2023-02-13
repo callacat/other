@@ -45,6 +45,7 @@ jobs:
         run: |
           cd nodestatus
           pnpm build
+          cd ..
           tar -czvf nodestatus.tar.gz /nodestatus
 
       # - name: Package
