@@ -1,9 +1,9 @@
 name: build
 
 on:
-  push:
-    branches:
-      - main
+  # push:
+  #   branches:
+  #     - main
   watch:
     types: [started]
 
@@ -34,6 +34,7 @@ jobs:
       - name: Make docker
         run: |
           make docker
+          mv ./bin/proxypool-docker proxypool
 
       - name: 上传
         uses: "marvinpinto/action-automatic-releases@latest"
@@ -42,4 +43,4 @@ jobs:
           title: "proxypool"
           automatic_release_tag: "latest"
           prerelease: false
-          files: ./bin/proxypool-docker
+          files: proxypool
