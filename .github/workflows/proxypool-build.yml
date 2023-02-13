@@ -35,17 +35,11 @@ jobs:
         run: |
           make docker
 
-      - name: Upload to Release
-        uses: actions/upload-artifact@v2
+      - name: 上传
+        uses: "marvinpinto/action-automatic-releases@latest"
         with:
-          name: proxy-pool
-          path: ./bin/proxypool-docker
-      # #如果最新获取的时间戳不等于上次保存的时间戳则上传到Release
-      # - name: 上传
-      #   uses: "marvinpinto/action-automatic-releases@latest"
-      #   with:
-      #     repo_token: "${{ secrets.GITHUB_TOKEN }}"
-      #     title: "proxypool"
-      #     automatic_release_tag: "latest"
-      #     prerelease: false
-      #     files: binary/
+          repo_token: "${{ secrets.GITHUB_TOKEN }}"
+          title: "proxypool"
+          automatic_release_tag: "latest"
+          prerelease: false
+          files: ./bin/proxypool-docker
