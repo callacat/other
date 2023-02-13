@@ -46,7 +46,7 @@ jobs:
           cd nodestatus
           pnpm build
           cd ..
-          tar -czvf nodestatus.tar.gz /nodestatus
+          tar -czvf nodestatus.tar.gz nodestatus
 
       # - name: Package
       #   uses: actions/upload-artifact@v1
