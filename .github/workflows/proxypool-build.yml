@@ -3,7 +3,7 @@ name: build
 on:
   push:
     paths:
-      - '.github\workflows\proxypool-build.yml'
+      - '.github\workflows\proxypool-*.yml'
 
 env:
   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

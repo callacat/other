@@ -3,7 +3,7 @@ name: build
 on:
   push:
     paths:
-      - '.github\workflows\nodestatus-build.yml'
+      - '.github\workflows\nodestatus-*.yml'
 
 env:
   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

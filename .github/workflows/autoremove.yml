@@ -1,10 +1,11 @@
-name: build
+name: remove
 
 on:
   push:
     branches:
       - main
 
+job:
   del_runs:
     runs-on: ubuntu-latest
     steps:
