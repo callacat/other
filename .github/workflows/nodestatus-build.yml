@@ -40,25 +40,24 @@ jobs:
           sudo pnpm config set ignore-workspace-root-check true
           sudo pnpm install --unsafe-perm
           sudo pnpm install classnames dayjs
-          ls
 
       - name: Build code
         run: |
           cd nodestatus
           pnpm build
-          ls
+          tar -czvf nodestatus.tar.gz /nodestatus
 
-      - name: Package
-        uses: actions/upload-artifact@v1
-        with:
-          name: build-output
-          path: ./nodestatus
-
-      # - name: 上传
-      #   uses: "marvinpinto/action-automatic-releases@latest"
+      # - name: Package
+      #   uses: actions/upload-artifact@v1
       #   with:
-      #     repo_token: "${{ secrets.GITHUB_TOKEN }}"
-      #     title: "nodestatus"
-      #     automatic_release_tag: "nodestatus"
-      #     prerelease: false
-      #     files: proxypool
+      #     name: build-output
+      #     path: ./nodestatus
+
+      - name: 上传
+        uses: "marvinpinto/action-automatic-releases@latest"
+        with:
+          repo_token: "${{ secrets.GITHUB_TOKEN }}"
+          title: "nodestatus"
+          automatic_release_tag: "nodestatus"
+          prerelease: false
+          files: nodestatus.tar.gz
