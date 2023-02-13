@@ -1,11 +1,9 @@
 name: build
 
 on:
-  # push:
-  #   branches:
-  #     - main
-  watch:
-    types: [started]
+  push:
+    paths:
+      - '.github\workflows\proxypool-build.yml'
 
 env:
   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
