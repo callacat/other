@@ -35,7 +35,6 @@ jobs:
         run: |
           sudo apt-get update
           sudo apt-get install -y git python3 apt-transport-https ca-certificates build-essential
-          sudo ln -s /usr/bin/python3 /usr/bin/python
           sudo npm install pnpm -g
           sudo pnpm install --unsafe-perm
           ls
