@@ -1,0 +1,41 @@
+name: build-proxypool
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - '.github/workflows/moviegetter-build.yml'
+
+env:
+  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+jobs:
+
+  build-proxypool:
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          ref: master
+          repository: jinzhongjia/movie-getter
+
+      - name: Set up Go environment
+        uses: actions/setup-go@v2
+        with:
+          go-version: 1.16.x
+
+      - name: build
+        run: |
+          go build -ldflags="-s -w" -o movie .
+
+      - name: 上传
+        uses: "marvinpinto/action-automatic-releases@latest"
+        with:
+          repo_token: "${{ secrets.GITHUB_TOKEN }}"
+          title: "movie"
+          automatic_release_tag: "movie"
+          prerelease: false
+          files: movie
