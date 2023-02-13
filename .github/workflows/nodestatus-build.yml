@@ -46,11 +46,13 @@ jobs:
           cd nodestatus
           sudo pnpm build
           ls
+
       - name: Package
         uses: actions/upload-artifact@v1
         with:
           name: build-output
-          path: .
+          path: ./nodestatus
+
       # - name: 上传
       #   uses: "marvinpinto/action-automatic-releases@latest"
       #   with:
