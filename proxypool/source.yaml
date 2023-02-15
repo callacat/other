@@ -32,15 +32,15 @@
     url: https://raw.githubusercontent.com/pojiezhiyuanjun/freev2/master/0209.txt
 
 # tg频道抓取
-- type: tgchannel
-  options:
-    channel: ZDYZ2
-    num: 100
+# - type: tgchannel
+#   options:
+#     channel: ZDYZ2
+#     num: 100
 
 # 网页模糊抓取
-- type: webfuzz
-  options:
-    url: https://merlinblog.xyz/wiki/freess.html
+# - type: webfuzz
+#   options:
+#     url: https://merlinblog.xyz/wiki/freess.html
 
 # 模糊抓取订阅链接
 # - type: webfuzzsub
