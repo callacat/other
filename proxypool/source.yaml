@@ -1,8 +1,8 @@
 # ##来自https://github.com/freefq/free/
 # # 订阅链接
-- type: subscribe
-  options:
-    url: https://cdn.staticaly.com/gh/freefq/free@master/v2
+# - type: subscribe
+#   options:
+#     url: https://cdn.staticaly.com/gh/freefq/free@master/v2
 
 ##来自https://github.com/Pawdroid/Free-servers
 - type: subscribe
