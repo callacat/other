@@ -7,6 +7,9 @@ on:
     paths:
       - '.github/workflows/proxypool-build.yml'
 
+env:
+  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
 jobs:
 
   build-proxypool:
@@ -37,5 +40,10 @@ jobs:
         uses: "marvinpinto/action-automatic-releases@latest"
         with:
           repo_token: "${{ secrets.GITHUB_TOKEN }}"
+<<<<<<< HEAD
+=======
+          title: "proxypool"
+          automatic_release_tag: "proxypool"
+>>>>>>> parent of 647d22c (Update proxypool-build.yml)
           prerelease: false
           files: proxypool
