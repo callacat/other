@@ -25,6 +25,18 @@
   options:
     url: https://dsurl.ml/tCEGOz9
 
+- type: subscribe
+  options:
+    url: https://raw.githubusercontent.com/chfchf0306/clash/main/clash
+
+- type: subscribe
+  options:
+    url: https://youlianboshi.netlify.com/
+
+- type: subscribe
+  options:
+    url: https://jiang.netlify.app/
+
 ##来自https://github.com/pojiezhiyuanjun/freev2 长期没有更新
 # - type: subscribe
 #   options:
