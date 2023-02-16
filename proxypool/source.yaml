@@ -1,8 +1,8 @@
-# ##来自https://github.com/freefq/free/
-# # 订阅链接
-# - type: subscribe
-#   options:
-#     url: https://cdn.staticaly.com/gh/freefq/free@master/v2
+##来自https://github.com/freefq/free/
+# 订阅链接
+- type: subscribe
+  options:
+    url: https://cdn.staticaly.com/gh/freefq/free@master/v2
 
 ##来自https://github.com/Pawdroid/Free-servers
 - type: subscribe
@@ -21,26 +21,26 @@
     url: https://raw.githubusercontent.com/mianfeifq/share/main/data2023025.txt
 
 ##来自https://github.com/aiboboxx/v2rayfree
-- type: subscribe
-  options:
-    url: https://raw.githubusercontent.com/aiboboxx/v2rayfree/main/v2
-
-##来自https://github.com/pojiezhiyuanjun/freev2
-# 订阅链接
 # - type: subscribe
 #   options:
-#     url: https://raw.githubusercontent.com/pojiezhiyuanjun/freev2/master/0209.txt
+#     url: https://raw.githubusercontent.com/aiboboxx/v2rayfree/main/v2
+
+##来自https://github.com/pojiezhiyuanjun/freev2
+订阅链接
+- type: subscribe
+  options:
+    url: https://raw.githubusercontent.com/pojiezhiyuanjun/freev2/master/0209.txt
 
 # tg频道抓取
-# - type: tgchannel
-#   options:
-#     channel: ZDYZ2
-#     num: 100
+- type: tgchannel
+  options:
+    channel: ZDYZ2
+    num: 100
 
 # 网页模糊抓取
-# - type: webfuzz
-#   options:
-#     url: https://merlinblog.xyz/wiki/freess.html
+- type: webfuzz
+  options:
+    url: https://merlinblog.xyz/wiki/freess.html
 
 # 模糊抓取订阅链接
 # - type: webfuzzsub
