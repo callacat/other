@@ -25,10 +25,10 @@
   options:
     url: https://dsurl.ml/tCEGOz9
 
-##来自https://github.com/pojiezhiyuanjun/freev2
-- type: subscribe
-  options:
-    url: https://raw.githubusercontent.com/pojiezhiyuanjun/freev2/master/0209.txt
+##来自https://github.com/pojiezhiyuanjun/freev2 长期没有更新
+# - type: subscribe
+#   options:
+#     url: https://raw.githubusercontent.com/pojiezhiyuanjun/freev2/master/0209.txt
 
 # tg频道抓取
 - type: tgchannel
