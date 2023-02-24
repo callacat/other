@@ -25,9 +25,9 @@
   options:
     url: https://dsurl.ml/tCEGOz9
 
-- type: subscribe
-  options:
-    url: https://raw.githubusercontent.com/chfchf0306/clash/main/clash
+# - type: subscribe
+#   options:
+#     url: https://raw.githubusercontent.com/chfchf0306/clash/main/clash
 
 - type: subscribe
   options:
