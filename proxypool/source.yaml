@@ -23,9 +23,9 @@
 # - type: subscribe
 #   options:
 #     url: https://raw.githubusercontent.com/mianfeifq/share/main/data2023025.txt
-- type: subscribe
-  options:
-    url: https://dsurl.ml/r8L6mBG
+# - type: subscribe
+#   options:
+#     url: https://dsurl.ml/r8L6mBG
 ##来自https://github.com/aiboboxx/v2rayfree
 - type: subscribe
   options:
@@ -53,10 +53,10 @@
 #     url: https://raw.githubusercontent.com/pojiezhiyuanjun/freev2/master/0209.txt
 
 # tg频道抓取
-- type: tgchannel
-  options:
-    channel: ZDYZ2
-    num: 100
+# - type: tgchannel
+#   options:
+#     channel: ZDYZ2
+#     num: 100
 
 # 网页模糊抓取节点
 # - type: webfuzz
