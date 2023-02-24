@@ -59,9 +59,9 @@
     num: 100
 
 # 网页模糊抓取节点
-- type: webfuzz
-  options:
-    url: https://merlinblog.xyz/wiki/freess.html
+# - type: webfuzz
+#   options:
+#     url: https://merlinblog.xyz/wiki/freess.html
 
 # 模糊抓取订阅链接
 - type: webfuzzsub
