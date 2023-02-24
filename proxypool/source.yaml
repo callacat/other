@@ -1,25 +1,31 @@
 ##来自https://github.com/freefq/free/
 # 订阅链接
-- type: subscribe
-  options:
-    url: https://cdn.staticaly.com/gh/freefq/free@master/v2
+# - type: subscribe
+#   options:
+#     url: https://cdn.staticaly.com/gh/freefq/free@master/v2
 
 ##来自https://github.com/Pawdroid/Free-servers
+# - type: subscribe
+#   options:
+#     url: https://raw.fastgit.org/Pawdroid/Free-servers/main/sub
+
 - type: subscribe
   options:
-    url: https://raw.fastgit.org/Pawdroid/Free-servers/main/sub
+    url: https://dsurl.ml/v5ocxuy
 
 ##来自https://github.com/vpei/Free-Node-Merge
+# - type: subscribe
+#   options:
+#     url: https://raw.githubusercontent.com/vpei/Free-Node-Merge/main/o/node.txt
+
+# ##来自https://github.com/mianfeifq/share
+# # 订阅链接不能固定
+# - type: subscribe
+#   options:
+#     url: https://raw.githubusercontent.com/mianfeifq/share/main/data2023025.txt
 - type: subscribe
   options:
-    url: https://raw.githubusercontent.com/vpei/Free-Node-Merge/main/o/node.txt
-
-##来自https://github.com/mianfeifq/share
-# 订阅链接不能固定
-- type: subscribe
-  options:
-    url: https://raw.githubusercontent.com/mianfeifq/share/main/data2023025.txt
-
+    url: https://dsurl.ml/r8L6mBG
 ##来自https://github.com/aiboboxx/v2rayfree
 - type: subscribe
   options:
@@ -29,13 +35,17 @@
 #   options:
 #     url: https://raw.githubusercontent.com/chfchf0306/clash/main/clash
 
-- type: subscribe
-  options:
-    url: https://youlianboshi.netlify.com/
+# - type: subscribe
+#   options:
+#     url: https://youlianboshi.netlify.com/
+
+# - type: subscribe
+#   options:
+#     url: https://jiang.netlify.app/
 
 - type: subscribe
   options:
-    url: https://jiang.netlify.app/
+    url: https://dsurl.ml/onJiwed
 
 ##来自https://github.com/pojiezhiyuanjun/freev2 长期没有更新
 # - type: subscribe
