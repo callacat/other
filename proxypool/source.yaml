@@ -1,26 +1,26 @@
-#来自https://github.com/freefq/free/
+# 来自https://github.com/freefq/free/
 # 订阅链接
 - type: subscribe
   options:
     url: https://cdn.staticaly.com/gh/freefq/free@master/v2
 
-#来自https://github.com/Pawdroid/Free-servers
+# 来自https://github.com/Pawdroid/Free-servers
 - type: subscribe
   options:
     url: https://raw.fastgit.org/Pawdroid/Free-servers/main/sub
 
-#来自https://github.com/vpei/Free-Node-Merge
+# 来自https://github.com/vpei/Free-Node-Merge
 - type: subscribe
   options:
     url: https://raw.githubusercontent.com/vpei/Free-Node-Merge/main/o/node.txt
 
-##来自https://github.com/mianfeifq/share
+# 来自https://github.com/mianfeifq/share
 # 订阅链接不能固定
 - type: subscribe
   options:
     url: https://raw.githubusercontent.com/mianfeifq/share/main/data2023025.txt
 
-##来自https://github.com/aiboboxx/v2rayfree
+# 来自https://github.com/aiboboxx/v2rayfree
 - type: subscribe
   options:
     url: https://raw.githubusercontent.com/aiboboxx/v2rayfree/main/v2
@@ -41,12 +41,8 @@
   options:
     url: https://dsurl.ml/onJiwed
 
-##来自https://github.com/pojiezhiyuanjun/freev2 长期没有更新
-# - type: subscribe
-#   options:
-#     url: https://raw.githubusercontent.com/pojiezhiyuanjun/freev2/master/0209.txt
 
-tg频道抓取
+# tg频道抓取
 - type: tgchannel
   options:
     channel: ZDYZ2
@@ -72,3 +68,7 @@ tg频道抓取
 #   options:
 #     url: https://fanqiangdang.com/forum-48-1.html
 
+##来自https://github.com/pojiezhiyuanjun/freev2 长期没有更新
+# - type: subscribe
+#   options:
+#     url: https://raw.githubusercontent.com/pojiezhiyuanjun/freev2/master/0209.txt
