@@ -27,20 +27,7 @@
 
 - type: subscribe
   options:
-    url: https://raw.githubusercontent.com/chfchf0306/clash/main/clash
-
-- type: subscribe
-  options:
-    url: https://youlianboshi.netlify.com/
-
-- type: subscribe
-  options:
     url: https://jiang.netlify.app/
-
-- type: subscribe
-  options:
-    url: https://dsurl.ml/onJiwed
-
 
 # tg频道抓取
 - type: tgchannel
@@ -52,11 +39,6 @@
 - type: webfuzz
   options:
     url: https://merlinblog.xyz/wiki/freess.html
-
-# 模糊抓取订阅链接
-- type: webfuzzsub
-  options:
-    url: https://raw.githubusercontent.com/du5/free/master/sub.list
 
 #  太多，炸了抓不动
 # - type: webfuzzsub
