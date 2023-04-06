@@ -8,4 +8,4 @@ WORKDIR /app
 ADD jdsign/jdsign.py .
 ADD https://github.com/walle1798/WALL.E/raw/master/signapi.py .
 
-CMD ["python", "signapi.py"]
+ENTRYPOINT ["python", "signapi.py"]
