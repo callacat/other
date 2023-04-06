@@ -6,6 +6,6 @@ ENV LANG C.UTF-8 \
 WORKDIR /app
 
 ADD jdsign/jdsign.py .
-ADD https://github.com/walle1798/WALL.E/raw/master/signapi.py
+ADD https://github.com/walle1798/WALL.E/raw/master/signapi.py signapi.py
 
 CMD ['python', 'signapi.py']
