@@ -9,16 +9,11 @@
   options:
     url: https://raw.fastgit.org/Pawdroid/Free-servers/main/sub
 
-# 来自https://github.com/vpei/Free-Node-Merge
-- type: subscribe
-  options:
-    url: https://raw.githubusercontent.com/vpei/Free-Node-Merge/main/o/node.txt
-
 # 来自https://github.com/mianfeifq/share
 # 订阅链接不能固定
 - type: subscribe
   options:
-    url: https://raw.githubusercontent.com/mianfeifq/share/main/data2023025.txt
+    url: https://raw.githubusercontent.com/mianfeifq/share/main/data2023054.txt
 
 # 来自https://github.com/aiboboxx/v2rayfree
 - type: subscribe
