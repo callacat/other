@@ -2,23 +2,18 @@
 # 订阅链接
 - type: subscribe
   options:
-    url: https://cdn.staticaly.com/gh/freefq/free@master/v2
+    url: https://github.com/freefq/free/raw/master/v2
 
 # 来自https://github.com/Pawdroid/Free-servers
 - type: subscribe
   options:
-    url: https://raw.fastgit.org/Pawdroid/Free-servers/main/sub
+    url: https://github.com/Pawdroid/Free-servers/raw/main/sub
 
 # 来自https://github.com/mianfeifq/share
 # 订阅链接不能固定
 - type: subscribe
   options:
-    url: https://raw.githubusercontent.com/mianfeifq/share/main/data2023054.txt
-
-# 来自https://github.com/aiboboxx/v2rayfree
-- type: subscribe
-  options:
-    url: https://raw.githubusercontent.com/aiboboxx/v2rayfree/main/v2
+    url: https://github.com/mianfeifq/share/raw/main/data2023061.txt
 
 - type: subscribe
   options:
@@ -49,3 +44,8 @@
 # - type: subscribe
 #   options:
 #     url: https://raw.githubusercontent.com/pojiezhiyuanjun/freev2/master/0209.txt
+
+# 来自https://github.com/aiboboxx/v2rayfree 长期没有更新
+# - type: subscribe
+#   options:
+#     url: https://raw.githubusercontent.com/aiboboxx/v2rayfree/main/v2
