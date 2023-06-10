@@ -28,15 +28,15 @@
   options:
     url: https://github.com/pojiezhiyuanjun/2023/raw/main/0608.txt
  
- - type: subscribe
+- type: subscribe
   options:
     url: https://github.com/pojiezhiyuanjun/2023/raw/main/0607.txt
  
- - type: subscribe
+- type: subscribe
   options:
     url: https://github.com/pojiezhiyuanjun/2023/raw/main/0606.txt
  
- - type: subscribe
+- type: subscribe
   options:
     url: https://github.com/pojiezhiyuanjun/2023/raw/main/0605.txt
 
