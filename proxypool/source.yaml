@@ -19,6 +19,27 @@
   options:
     url: https://jiang.netlify.app/
 
+# 来自 https://github.com/pojiezhiyuanjun/2023
+- type: subscribe
+  options:
+    url: https://github.com/pojiezhiyuanjun/2023/raw/main/0609.txt
+
+- type: subscribe
+  options:
+    url: https://github.com/pojiezhiyuanjun/2023/raw/main/0608.txt
+ 
+ - type: subscribe
+  options:
+    url: https://github.com/pojiezhiyuanjun/2023/raw/main/0607.txt
+ 
+ - type: subscribe
+  options:
+    url: https://github.com/pojiezhiyuanjun/2023/raw/main/0606.txt
+ 
+ - type: subscribe
+  options:
+    url: https://github.com/pojiezhiyuanjun/2023/raw/main/0605.txt
+
 # tg频道抓取
 - type: tgchannel
   options:
@@ -39,11 +60,6 @@
 # - type: web-fanqiangdang
 #   options:
 #     url: https://fanqiangdang.com/forum-48-1.html
-
-##来自https://github.com/pojiezhiyuanjun/freev2 长期没有更新
-# - type: subscribe
-#   options:
-#     url: https://raw.githubusercontent.com/pojiezhiyuanjun/freev2/master/0209.txt
 
 # 来自https://github.com/aiboboxx/v2rayfree 长期没有更新
 # - type: subscribe
