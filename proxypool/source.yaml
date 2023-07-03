@@ -13,7 +13,7 @@
 # 订阅链接不能固定
 - type: subscribe
   options:
-    url: https://raw.kgithub.com/mianfeifq/share/main/data2023070.txt
+    url: https://github.com/mianfeifq/share/raw/main/data2023070.txt
 
 - type: subscribe
   options:
@@ -22,23 +22,23 @@
 # 来自 https://github.com/pojiezhiyuanjun/2023
 - type: subscribe
   options:
-    url: https://raw.kgithub.com/pojiezhiyuanjun/2023/main/0703.txt
+    url: https://github.com/pojiezhiyuanjun/2023/raw/main/0703.txt
 
 - type: subscribe
   options:
-    url: https://raw.kgithub.com/pojiezhiyuanjun/2023/main/0630.txt
+    url: https://github.com/pojiezhiyuanjun/2023/raw/main/0630.txt
  
 - type: subscribe
   options:
-    url: https://raw.kgithub.com/pojiezhiyuanjun/2023/main/0629.txt
+    url: https://github.com/pojiezhiyuanjun/2023/raw/main/0629.txt
  
 - type: subscribe
   options:
-    url: https://raw.kgithub.com/pojiezhiyuanjun/2023/main/0628.txt
+    url: https://github.com/pojiezhiyuanjun/2023/raw/main/0628.txt
  
 - type: subscribe
   options:
-    url: https://raw.kgithub.com/pojiezhiyuanjun/2023/main/0627.txt
+    url: https://github.com/pojiezhiyuanjun/2023/raw/main/0627.txt
 
 # tg频道抓取
 - type: tgchannel
