@@ -52,10 +52,10 @@
 #     url: https://fanqiangdang.com/forum-48-1.html
 
 # 来自https://github.com/aiboboxx/v2rayfree 长期没有更新
-  - type: subscribe
-    options:
-      url: https://raw.githubusercontent.com/aiboboxx/v2rayfree/main/v2
+- type: subscribe
+  options:
+    url: https://raw.githubusercontent.com/aiboboxx/v2rayfree/main/v2
 
-  - type: subscribe
-    options:
-      url: https://proxypool.dsdog.tk/sub
+- type: subscribe
+  options:
+    url: https://proxypool.dsdog.tk/sub
