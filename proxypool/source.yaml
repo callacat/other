@@ -55,7 +55,3 @@
 - type: subscribe
   options:
     url: https://raw.githubusercontent.com/aiboboxx/v2rayfree/main/v2
-
-- type: subscribe
-  options:
-    url: https://proxypool.dsdog.tk/sub
