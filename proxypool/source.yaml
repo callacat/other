@@ -18,23 +18,23 @@
 # 来自 https://github.com/pojiezhiyuanjun/2023
 - type: subscribe
   options:
-    url: https://github.com/pojiezhiyuanjun/2023/raw/main/1008.txt
+    url: https://github.com/pojiezhiyuanjun/2023/raw/main/1013.txt
 
 - type: subscribe
   options:
-    url: https://github.com/pojiezhiyuanjun/2023/raw/main/1007.txt
+    url: https://github.com/pojiezhiyuanjun/2023/raw/main/1012.txt
  
 - type: subscribe
   options:
-    url: https://github.com/pojiezhiyuanjun/2023/raw/main/0928.txt
+    url: https://github.com/pojiezhiyuanjun/2023/raw/main/1010.txt
  
 - type: subscribe
   options:
-    url: https://github.com/pojiezhiyuanjun/2023/raw/main/0927.txt
+    url: https://github.com/pojiezhiyuanjun/2023/raw/main/1009.txt
  
 - type: subscribe
   options:
-    url: https://github.com/pojiezhiyuanjun/2023/raw/main/0926.txt
+    url: https://github.com/pojiezhiyuanjun/2023/raw/main/1008.txt
 
 # 网页模糊抓取节点
 - type: webfuzz
