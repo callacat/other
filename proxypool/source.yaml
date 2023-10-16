@@ -18,28 +18,28 @@
 # 来自 https://github.com/pojiezhiyuanjun/2023
 - type: subscribe
   options:
-    url: https://raw.githubusercontent.com/pojiezhiyuanjun/2023/main/1013.txt
+    url: https://raw.githubusercontent.com/pojiezhiyuanjun/2023/main/1013clash.yml
 
 - type: subscribe
   options:
-    url: https://raw.githubusercontent.com/pojiezhiyuanjun/2023/main/1012.txt
+    url: https://raw.githubusercontent.com/pojiezhiyuanjun/2023/main/1012clash.yml
  
 - type: subscribe
   options:
-    url: https://raw.githubusercontent.com/pojiezhiyuanjun/2023/main/1011.txt
+    url: https://raw.githubusercontent.com/pojiezhiyuanjun/2023/main/1011clash.yml
  
 - type: subscribe
   options:
-    url: https://raw.githubusercontent.com/pojiezhiyuanjun/2023/main/1010.txt
+    url: https://raw.githubusercontent.com/pojiezhiyuanjun/2023/main/1010clash.yml
  
 - type: subscribe
   options:
-    url: https://raw.githubusercontent.com/pojiezhiyuanjun/2023/main/1009.txt
+    url: https://raw.githubusercontent.com/pojiezhiyuanjun/2023/main/1009clash.yml
 
 # 网页模糊抓取节点
-- type: webfuzz
-  options:
-    url: https://merlinblog.xyz/wiki/freess.html
+# - type: webfuzz
+#   options:
+#     url: https://merlinblog.xyz/wiki/freess.html
 
 #  太多，炸了抓不动
 - type: webfuzzsub
