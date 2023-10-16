@@ -16,25 +16,25 @@
     url: https://github.com/mianfeifq/share/raw/main/data2023109.txt
 
 # 来自 https://github.com/pojiezhiyuanjun/2023
-- type: subscribe
-  options:
-    url: https://raw.githubusercontent.com/pojiezhiyuanjun/2023/main/1013clash.yml
+# - type: subscribe
+#   options:
+#     url: https://raw.githubusercontent.com/pojiezhiyuanjun/2023/main/1013clash.yml
 
-- type: subscribe
-  options:
-    url: https://raw.githubusercontent.com/pojiezhiyuanjun/2023/main/1012clash.yml
+# - type: subscribe
+#   options:
+#     url: https://raw.githubusercontent.com/pojiezhiyuanjun/2023/main/1012clash.yml
  
-- type: subscribe
-  options:
-    url: https://raw.githubusercontent.com/pojiezhiyuanjun/2023/main/1011clash.yml
+# - type: subscribe
+#   options:
+#     url: https://raw.githubusercontent.com/pojiezhiyuanjun/2023/main/1011clash.yml
  
-- type: subscribe
-  options:
-    url: https://raw.githubusercontent.com/pojiezhiyuanjun/2023/main/1010clash.yml
+# - type: subscribe
+#   options:
+#     url: https://raw.githubusercontent.com/pojiezhiyuanjun/2023/main/1010clash.yml
  
-- type: subscribe
-  options:
-    url: https://raw.githubusercontent.com/pojiezhiyuanjun/2023/main/1009clash.yml
+# - type: subscribe
+#   options:
+#     url: https://raw.githubusercontent.com/pojiezhiyuanjun/2023/main/1009.txt
 
 # 网页模糊抓取节点
 # - type: webfuzz
