@@ -42,16 +42,11 @@
     url: https://merlinblog.xyz/wiki/freess.html
 
 #  太多，炸了抓不动
-# - type: webfuzzsub
-#   options:
-#     url: https://merlinblog.xyz/wiki/freess.html
+- type: webfuzzsub
+ options:
+   url: https://merlinblog.xyz/wiki/freess.html
 
-# 翻墙党论坛抓取
-# - type: web-fanqiangdang
-#   options:
-#     url: https://fanqiangdang.com/forum-48-1.html
-
-# 来自https://github.com/aiboboxx/v2rayfree 长期没有更新
+# 来自https://github.com/aiboboxx/v2rayfree
 - type: subscribe
   options:
     url: https://raw.githubusercontent.com/aiboboxx/v2rayfree/main/v2
