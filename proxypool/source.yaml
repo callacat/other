@@ -13,16 +13,16 @@
 # 订阅链接不能固定
 - type: subscribe
   options:
-    url: https://github.com/mianfeifq/share/raw/main/data2023109.txt
+    url: https://github.com/mianfeifq/share/raw/main/data2023125.txt
 
 # 来自 https://github.com/pojiezhiyuanjun/2023
-# - type: subscribe
-#   options:
-#     url: https://raw.githubusercontent.com/pojiezhiyuanjun/2023/main/1013clash.yml
+- type: subscribe
+  options:
+    url: https://raw.githubusercontent.com/pojiezhiyuanjun/2023/main/1220.txt
 
-# - type: subscribe
-#   options:
-#     url: https://raw.githubusercontent.com/pojiezhiyuanjun/2023/main/1012clash.yml
+- type: subscribe
+  options:
+    url: https://raw.githubusercontent.com/pojiezhiyuanjun/2023/main/1219.txt
  
 # - type: subscribe
 #   options:
