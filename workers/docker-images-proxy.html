@@ -1,0 +1,190 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>镜像加速说明</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+            background-image: url('https://qninq.cn/api/bingimg/'); /* Replace with your image path */
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.8);
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            font-size: 2em;
+            margin-bottom: 0.5em;
+            color: #007aff;
+        }
+        p {
+            margin-bottom: 1em;
+        }
+        pre {
+            background: #2d2d2d;
+            color: #f8f8f2;
+            padding: 20px;
+            border-radius: 8px;
+            overflow-x: auto;
+            position: relative;
+        }
+        pre::before {
+            content: " ";
+            display: block;
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            width: 12px;
+            height: 12px;
+            background: #ff5f56;
+            border-radius: 50%;
+            box-shadow: 20px 0 0 #ffbd2e, 40px 0 0 #27c93f;
+        }
+        code {
+            font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
+            font-size: 0.875em;
+        }
+        .copy-button {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            background: #007aff;
+            color: white;
+            border: none;
+            padding: 5px 10px;
+            border-radius: 5px;
+            cursor: pointer;
+            opacity: 0;
+            transition: opacity 0.3s;
+        }
+        pre:hover .copy-button {
+            opacity: 1;
+        }
+        /*底部页脚css*/
+        .github-badge {
+          display: inline-block;
+          border-radius: 4px;
+          text-shadow: none;
+          font-size: 12px;
+          color: #fff;
+          line-height: 15px;
+          background-color: #abbac3;
+          margin-bottom: 2px
+        }
+        
+        .github-badge .badge-subject {
+          display: inline-block;
+          background-color: #4d4d4d;
+          padding: 4px 4px 4px 6px;
+          border-top-left-radius: 4px;
+          border-bottom-left-radius: 4px
+        }
+        
+        .github-badge .badge-value {
+          display: inline-block;
+          padding: 4px 6px 4px 4px;
+          border-top-right-radius: 4px;
+          border-bottom-right-radius: 4px
+        }
+        
+        .github-badge .bg-blue {
+          background-color: #007ec6
+        }
+        
+        .github-badge .bg-orange {
+          background-color: #ffa500
+        }
+        
+        .github-badge .bg-green {
+          background-color: #3bca6e
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <center><h1>镜像加速说明</h1></center>
+        <!--统计-->
+<center><div class="github-badge">
+    <span class="badge-subject">PV</span>
+
+        <span class="badge-value bg-blue" id="page_pv"></span>
+</div> |
+<div class="github-badge">
+    <span class="badge-subject">UV</span>
+        <span class="badge-value bg-green" id="page_uv"></span>
+</div></center>
+        <center><h4>建议自建使用，底部按钮获取代码</h4></center>
+        <h2>为了加速镜像拉取，使用以下命令设置<b>registry mirror</b>：</h2>
+        <pre><code>
+sudo tee /etc/docker/daemon.json &lt;&lt;EOF
+{
+    "registry-mirrors": ["https://{workers_host}"]
+}
+EOF</code><button class="copy-button" onclick="copyCode(this)">复制代码</button></pre>
+        <pre><code>
+sudo systemctl daemon-reload</code><button class="copy-button" onclick="copyCode(this)">复制代码</button></pre>
+        <pre><code>
+sudo systemctl restart docker</code><button class="copy-button" onclick="copyCode(this)">复制代码</button></pre>
+        <h2>用法：</h2>
+        <h3>原拉取镜像命令：</h3>
+        <pre><code>
+docker pull library/alpine:latest</code><button class="copy-button" onclick="copyCode(this)">复制代码</button></pre>
+        <h3>加速拉取镜像命令：</h3>
+        <pre><code>
+docker pull {workers_host}/library/alpine:latest</code><button class="copy-button" onclick="copyCode(this)">复制代码</button></pre>
+ <span style="font-size: 12px;">提示：使用不同子域名可以拉取不同平台镜像，比如：ghcr.docker.dsdog.tk </span>
+
+<center><div class="github-badge">
+    <span class="badge-subject">Copyright</span>
+    <a href="https://qninq.cn/" target="_self">
+        <span class="badge-value bg-green">©2024 青柠</span>
+    </a>
+</div> |
+<div class="github-badge">
+    <span class="badge-subject">搭建同款</span>
+    <a href="https://linux.do/t/topic/115004" target="_blank">
+        <span class="badge-value bg-blue">查看文章</span></a>
+</div> |
+<div class="github-badge">
+    <span class="badge-subject">觉得不错</span>
+    <a href="https://qninq.cn/donate" target="_blank">
+        <span class="badge-value bg-blue">点此赞赏</span></a>
+</div> |
+<div class="github-badge">
+    <span class="badge-subject">Powerd By</span>
+    <a href="https://dash.cloudflare.com" target="_blank">
+        <span class="badge-value bg-orange">CloudFlare</span></a>
+</div></center>
+</div>
+    <script defer src="https://qninq.cn/file/js/web_analytics.js" data-base-url="https://analytics.nark.eu.org">></script>
+    <script>
+        function copyCode(button) {
+            const code = button.previousSibling;
+            const textArea = document.createElement('textarea');
+            textArea.value = code.textContent;
+            document.body.appendChild(textArea);
+            textArea.select();
+            document.execCommand('copy');
+            document.body.removeChild(textArea);
+            button.textContent = '已复制';
+            setTimeout(() => {
+                button.textContent = '复制代码';
+            }, 2000);
+        }
+    </script>
+</body>
+</html>

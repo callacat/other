@@ -19,7 +19,7 @@ const customizeRoutes = {
 const defaultHost = 'docker'
 
 // 替换为实际的HTML文件URL
-const externalHtmlUrl = 'https://qninq.cn/file/html/dockerproxy.html'; 
+const externalHtmlUrl = 'https://raw.githubusercontent.com/callacat/other/main/workers/docker-images-proxy.html'; 
 
 /**
  * 获取外部HTML内容
